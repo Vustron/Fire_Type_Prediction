@@ -1,0 +1,11 @@
+#POST
+POST http://127.0.0.1:5000/predict 
+content-type: application/json
+
+{
+  "Location": "Mainit",
+  "Month": "March",
+  "Day": 4,
+  "Hour": 14,
+  "Occupancy": "Commercial"
+}
